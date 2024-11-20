@@ -1,0 +1,18 @@
+Column,Description
+InvoiceNo,A unique identifier for each sales transaction (invoice).
+StockCode,The code representing the product stock-keeping unit (SKU).
+Description,A brief description of the product.
+Quantity,The number of units of the product sold in the transaction.
+InvoiceDate,The date and time when the sale was recorded.
+UnitPrice,The price per unit of the product in the transaction currency.
+CustomerID,A unique identifier for each customer.
+Country,The customers country.
+Discount,"The discount applied to the transaction, if any."
+PaymentMethod,"The method of payment used for the transaction (e.g., PayPal, Bank Transfer)."
+ShippingCost,The cost of shipping for the transaction.
+Category,"The category to which the product belongs (e.g., Electronics, Apparel)."
+SalesChannel,"The channel through which the sale was made (e.g., Online, In-store)."
+ReturnStatus,Indicates whether the item was returned or not.
+ShipmentProvider,"The provider responsible for delivering the order (e.g., UPS, FedEx)."
+WarehouseLocation,The warehouse location from which the order was fulfilled.
+OrderPriority,"The priority level of the order (e.g., High, Medium, Low)."
